@@ -7,7 +7,7 @@ def main():
     repo = Path(__file__).parent
     data_dir = repo / "data"
     data_dir.mkdir(exist_ok=True)
-    input_file = data_dir / f"{day:02d}_day_input.txt"
+    input_file = data_dir / f"{day:02d}_input.txt"
     test_file = data_dir / f"{day:02d}_test.txt"
     input_file.touch()
     test_file.touch()
