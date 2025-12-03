@@ -36,7 +36,6 @@ def star_two(data):
 
         for j in range(12, 0, -1):
             m, s = find_max(s, j - 1)
-            print(s)
             holder[i, 12 - j] = m
 
     for row in holder:
